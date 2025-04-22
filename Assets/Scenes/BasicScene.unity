@@ -705,7 +705,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6598815579406187037, guid: 18ddb545287c546e19cc77dc9fbb2189, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1391,6 +1391,10 @@ PrefabInstance:
     - target: {fileID: 1717954561962503725, guid: f6336ac4ac8b4d34bc5072418cdc62a0, type: 3}
       propertyPath: m_Name
       value: XR Origin (XR Rig)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1717954561962503725, guid: f6336ac4ac8b4d34bc5072418cdc62a0, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1717954561962503726, guid: f6336ac4ac8b4d34bc5072418cdc62a0, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5944,13 +5948,14 @@ MonoBehaviour:
   m_text: 'Let''s learn more about solar panels.
 
     They are a great way to make
-    your home greener, by generating your own energy, which you can then store or
-    sell back to the electricity company, meaning tha tyou will reduce your electricity
-    bills.
+    your home greener, by generating your own energy, which you can then use, store
+    (if you have the required equipment) or sell back to the electricity company,
+    meaning that you will reduce your electricity bills.
 
 
-    Installing sollar panels to your house requires an initial invesment,
-    however in the longrun definitely pays off!'
+    Installing solar panels
+    to your house requires an initial invesment, however in the longrun definitely
+    pays off!'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -27168,16 +27173,16 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'You can always start small with chaning your habits about energy consumption!
+  m_text: 'You can always start small with changing your habits about energy consumption!
 
 
     Here
-    we will outline some actions that you can consider in order to same moeny from
+    we will outline some actions that you can consider in order to save money from
     electricity, but also save our planet!
 
 
     -turn off lamps you do not use:
-    for example if youn are not in the room, if the lamp is on during the day, or
+    for example if you are not in the room, if the lamp is on during the day, or
     if there are already enough lamps turned on in the room.
 
 
@@ -27190,7 +27195,7 @@ MonoBehaviour:
     sunny outside?
 
 
-    - keep the heeting on, yes, this actually saves energy as
+    - keep the heating on, yes, this actually saves energy as
     more heat is needed to warm up a fully cooled place.'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -29315,7 +29320,11 @@ MonoBehaviour:
   m_text: 'Hey!
 
 
-    In case you forgot what you have to do here is a simple breakdown:
+    Welcome to this VR experience where through some reading, but
+    most importantly, doing some tasks, you will learn more about making your home
+    more sustainable and how to save money on bills.
+
+    Here is a simple breakdown:
 
 
     -
@@ -29324,12 +29333,12 @@ MonoBehaviour:
     - install the panel on the roof
 
     -
-    switch off the unnecesary lamp
+    switch off the unnecessary lamp
 
 
-    Once you have read the page tick off the
-    box! And once you have done all the tasks the experience will automatically end
-    and you can go and apply what you learned in real life!'
+    Once you have done all the tasks the experience
+    will automatically show a completion menu and you can go and apply what you learned
+    in real life!'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -35278,7 +35287,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4478390025143306917, guid: bff6109754ef3244c8bee269c63b7270, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5017689861367030786, guid: bff6109754ef3244c8bee269c63b7270, type: 3}
       propertyPath: m_LocalPosition.x
