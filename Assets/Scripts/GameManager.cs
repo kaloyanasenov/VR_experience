@@ -13,6 +13,7 @@ public class GameManager : MonoBehaviour
    public TMPro.TextMeshProUGUI debugText;
    public GameObject[] uiToDisable; // Assign other UI elements (not the completion menu)
    public GameObject completionMenu; // Assign the CompletionMenu panel here
+   public ParticleSystem confettiFX;
 
     private bool panelPlaced = false;
     private bool hasLogged = false;
@@ -88,6 +89,11 @@ else if (!socket.hasSelection)
         // Show completion menu
     if (completionMenu != null)
         completionMenu.SetActive(true);
+        
+         if (confettiFX != null)
+    {
+        confettiFX.Play();
+    }
     }
 
     public void RestartGame()
